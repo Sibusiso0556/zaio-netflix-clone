@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter-general {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    background: black;
+}
+
+
+#logo {
+    width: 150px;
+    margin-top: 30px;
+}
+
+#nav button {
+       background: rgb(229, 9, 20);
+       color: white;
+       padding: 10px 20px;
+       margin-top: 20px;
+       border: none;
+       border-radius: 5px;
+       font-size: 0.9rem;
+}
+
+button {
+       background: rgb(229, 9, 20);
+       color: white;
+       padding: 16px 33px;
+       border: none;
+       border-radius: 5px;
+       font-size: 1.4rem;
+       font-weight: bold;
+}
+
+
+header > * {
+    color: white;
+}
+
+header {
+    background: linear-gradient(rgba(0,0,0, 1), rgba(0,0,0,.5), rgba(0,0,0, 1)),
+             url(resources/backround.jpg) center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 95vh;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.curve-in {
+    height: 10vh;
+    width: 100vw;
+    background: linear-gradient(to right, black, rgb(255, 0, 204), red, rgb(255, 0, 204), black);
+    position: relative;
+    top: 90%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.curve-out {
+    height: 90%;
+    width: 100%;
+    background: radial-gradient(ellipse at 50% 0, rgb(38, 38, 68), black 50%);
+    position: absolute;
+    top: 10%;
+    border-top-left-radius: 45%;
+    border-top-right-radius: 45%;
+}
+
+header section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 160vh;
+    text-align: center;
+}
+
+#unlimited {
+    margin-top: 8vh;
+}
+
+h2 {
+    font-size: 55px;
+    font-weight: 840;
+    line-height: 0.4;
+
+     display: flex;
+     justify-content: center;
+}
+
+h5 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 0;
+    margin-top: 1vh;
+}
+
+p {
+     font-weight: 350;
+}
+
+.CTA {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.email-input {
+    background-color: rgba(45, 42, 42, 0.5);
+    padding: 17px 80px;
+    border-radius: 5px;
+    border: rgb(81, 78, 78) 3px solid;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.email-input2 {
+    background-color: rgba(45, 42, 42, 0.5);
+    padding: 17px 175px;
+    border-radius: 5px;
+    border: rgb(81, 78, 78) 3px solid;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+ {
+    text-align: left;
+    color: rgb(122, 116, 116);
+}
+
+h3 {
+    color: white;
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+div span {
+    font-family: arial black, sans-serif;
+    -webkit-text-stroke: 1.5px white;
+    font-size: 100px;
+    position: relative;
+    right: 25px;
+}
+
+div.card {
+width: 214px;
+height: 300px;
+border-radius: 8px;
+
+display: flex;
+align-items: flex-end;
+}
+
+#show1 {
+    background: url("resources/show1.png"); center no-repeat;
+    background-size: cover;
+}
+
+#show2 {
+    background: url("resources/show2.png"); center no-repeat;
+    background-size: cover;
+}
+
+#show3 {
+    background: url("resources/show3.png"); center no-repeat;
+    background-size: cover;
+}
+
+#show4 {
+    background: url("resources/show4.png"); center no-repeat;
+    background-size: cover;
+}
+
+#show5 {
+    background: url("resources/show5.png"); center no-repeat;
+    background-size: cover;
+}
+
+
+main {
+    padding: 0 20vh;
+     margin-top: 15vh;
+}
+
+#trending-now {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    margin-bottom: 100px;
+
+}
+
+#more-reasons {
+    margin-bottom: 50px;
+    display: flex;
+    gap: 20px;
+}
+
+h4 {
+    font-size: 1.5rem;
+    margin-top: 15px;
+     margin-bottom: 10px;
+}
+
+.reasons-card p {
+    font-size: 1.1rem;
+}
+
+.reasons-card {
+    color: white;
+    width: 300px;
+    height: 240px;
+
+    background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-end;
+
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+}
+
+#FAQ {
+    color: white;
+    margin-top: -15px;
+    margin-bottom: 70px;
+}
+
+summary {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+details {
+    background: #2d2d2d;
+    padding: 30px;
+    margin-bottom: 7px;
+}
+
+details p {
+    border-top: 1px solid black;
+}
+
+footer {
+    color: white;
+    padding: 0 10vw;
+    margin-bottom: 80px;
+}
+
+footer #links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-bottom: 35px;
+    margin-left: -35px;
+    color: #c1bdbd;
+    font-size: 1rem;
+    line-height: 2;
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+}
+
+#membership {
+    display: flex;
+    justify-content: center;
+}
+
+#questions a {
+    color: #c1bdbd;
+}
+
+#questions {
+    margin-top: 15vh;
+}
+
+select {
+    margin-bottom: 25px;
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: 3px solid rgb(86, 84, 84);
+}
+
+#counyry {
+    color: #c1bdbd;
+    font-size: 1rem;
+}
+
+#CAPTCHA {
+    color: #c1bdbd;
+    font-size: 0.9rem;
+}
+
+
